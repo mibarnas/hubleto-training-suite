@@ -1,0 +1,90 @@
+{
+ "Components\\FormOrder": {
+  "(empty row)": "(prázdny riadok)",
+  "Bulk worker import": "Hromadný import pracovníkov",
+  "Columns missing from the file": "V súbore chýbajú stĺpce",
+  "Columns that are not part of the template and were ignored": "Stĺpce, ktoré nie sú súčasťou predlohy a boli ignorované",
+  "Download import template": "Stiahnuť predlohu importu",
+  "Email": "E-mail",
+  "Existing worker": "Existujúci pracovník",
+  "First create the order, then you will be prompted to add its workers.": "Najskôr vytvorte objednávku, potom budete môcť pridať jej pracovníkov.",
+  "Import failed.": "Import zlyhal.",
+  "Import workers": "Importovať pracovníkov",
+  "Imported": "Naimportované",
+  "Name": "Meno",
+  "New order": "Nová objednávka",
+  "New worker": "Nový pracovník",
+  "Number of workers": "Počet pracovníkov",
+  "Order": "Objednávka",
+  "Orderer": "Objednávateľ",
+  "Preview": "Náhľad",
+  "Preview import": "Náhľad importu",
+  "Price per person": "Cena za osobu",
+  "Pricing": "Cena",
+  "Rows that could not be imported": "Riadky, ktoré sa nepodarilo naimportovať",
+  "Save the order with an .xlsx attached to import workers from it.": "Uložte objednávku s priloženým súborom .xlsx, aby sa z neho dali importovať pracovníci.",
+  "Status": "Stav",
+  "The file has to follow the import template: Meno, Priezvisko and E-mail are required, the remaining columns are optional.": "Súbor musí zodpovedať predlohe importu: Meno, Priezvisko a E-mail sú povinné, ostatné stĺpce sú voliteľné.",
+  "The price per person comes from the booked training, and the head count from the workers on this order.": "Cena za osobu sa preberá z objednaného školenia a počet osôb z pracovníkov na tejto objednávke.",
+  "Total price": "Celková cena",
+  "Training": "Školenie",
+  "Training order": "Objednávka školenia",
+  "Workers on this order": "Pracovníci na tejto objednávke",
+  "existing workers": "existujúci pracovníci",
+  "invalid rows": "chybné riadky",
+  "new workers": "noví pracovníci"
+ },
+ "Controllers\\Api\\AddOrderWorkers": {
+  "No workers were provided.": "Neboli zadaní žiadni pracovníci.",
+  "idOrder is required.": "Je potrebné zadať idOrder."
+ },
+ "Controllers\\Api\\ImportOrderWorkers": {
+  "No workers file has been uploaded for this order.": "K tejto objednávke nie je nahratý súbor s pracovníkmi.",
+  "Order not found.": "Objednávka sa nenašla.",
+  "idOrder is required.": "Je potrebné zadať idOrder."
+ },
+ "Controllers\\Orders": {
+  "A private order asks for the one worker who is attending. A company order asks for the customer and the contact person instead, and can carry as many workers as the company sends.": "Súkromná objednávka sa pýta na jedného uchádzača, ktorý sa zúčastní. Firemná objednávka sa namiesto toho pýta na zákazníka a kontaktnú osobu a môže niesť toľko uchádzačov, koľko ich firma vyšle.",
+  "An order records one booking for one training date, placed either by a private individual or by a company. The order number is assigned for you when the order is created.": "Objednávka zaznamenáva jednu rezerváciu na jeden termín školenia, ktorú zadala buď súkromná osoba, alebo firma. Číslo objednávky sa pridelí automaticky pri jej vytvorení.",
+  "Download the import template, have the company fill it in, attach it to the saved order, then use Preview import to see exactly what would happen before committing with Import workers. Meno, Priezvisko and E-mail are required; anyone whose e-mail is not on file yet is created as a new worker.": "Stiahnite predlohu na import, nechajte ju firmu vyplniť, priložte ju k uloženej objednávke a tlačidlom Náhľad importu si pozrite, čo presne by sa stalo, ešte pred potvrdením tlačidlom Importovať uchádzačov. Meno, Priezvisko a E-mail sú povinné; každý, koho e-mail zatiaľ nemáme, sa vytvorí ako nový uchádzač.",
+  "Importing a company's workers": "Import uchádzačov firmy",
+  "Price per person comes from the booked schedule's training and the head count from the order's workers, so the total is recalculated every time it is shown and cannot go stale when a price changes.": "Cena za osobu pochádza zo školenia rezervovaného termínu a počet osôb z uchádzačov na objednávke, takže celková suma sa prepočíta pri každom zobrazení a pri zmene ceny nemôže zostať neaktuálna.",
+  "Prices are read, not stored": "Ceny sa čítajú, neukladajú",
+  "The form follows the order type": "Formulár sa riadi typom objednávky",
+  "The worker list is the attendee list": "Zoznam uchádzačov je zoznam účastníkov",
+  "Training orders": "Objednávky školení",
+  "Who ordered what": "Kto si čo objednal",
+  "Workers on this order are simply the attendees created against it, so putting somebody on the order and registering them for the training date are one and the same action. There is no second list that can fall out of step.": "Uchádzači na tejto objednávke sú jednoducho účastníci vytvorení k nej, takže pridanie niekoho na objednávku a jeho prihlásenie na termín školenia je jedna a tá istá akcia. Neexistuje druhý zoznam, ktorý by sa mohol rozísť."
+ },
+ "Models\\Order": {
+  "A new training order has been created.": "Bola vytvorená nová objednávka školenia.",
+  "Add Order": "Pridať objednávku",
+  "Company": "Firma",
+  "Contact person": "Kontaktná osoba",
+  "Currency": "Mena",
+  "Date ordered": "Dátum objednania",
+  "Date paid": "Dátum úhrady",
+  "New training order": "Nová objednávka školenia",
+  "Note": "Poznámka",
+  "Number of workers": "Počet pracovníkov",
+  "Order number": "Číslo objednávky",
+  "Order type": "Typ objednávky",
+  "Price per person": "Cena za osobu",
+  "Private individual": "Jednotlivec",
+  "Schedule": "Termín",
+  "Total price": "Celková cena",
+  "Workers (.xlsx)": "Pracovníci (.xlsx)"
+ },
+ "WorkersImporter": {
+  "Invalid email address": "Neplatná e-mailová adresa",
+  "Missing value": "Chýbajúca hodnota",
+  "None of the columns in the file match the import template. Download the template and fill it in.": "Žiadny zo stĺpcov v súbore nezodpovedá predlohe importu. Stiahnite si predlohu a vyplňte ju.",
+  "Order not found.": "Objednávka sa nenašla.",
+  "The order has no training date selected, so its workers cannot be enrolled.": "Objednávka nemá vybraný termín školenia, preto jej pracovníkov nie je možné prihlásiť.",
+  "The workers file was not found.": "Súbor s pracovníkmi sa nenašiel."
+ },
+ "manifest": {
+  "Training orders": "Objednávky školení",
+  "Training orders placed by private individuals and companies.": "Objednávky školení od jednotlivcov aj firiem."
+ }
+}

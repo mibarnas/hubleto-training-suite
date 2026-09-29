@@ -1,0 +1,45 @@
+{
+ "Components\\FormQuestionnaire": {
+  "Comments": "Komentáre",
+  "Not filled in yet": "Zatiaľ nevyplnené",
+  "Questionnaire": "Dotazník",
+  "Questions": "Otázky",
+  "Ratings (1 = worst, 5 = best)": "Hodnotenia (1 = najhoršie, 5 = najlepšie)",
+  "Satisfaction questionnaire": "Dotazník spokojnosti"
+ },
+ "Controllers\\Questionnaires": {
+  "Answers, not a form to fill in": "Odpovede, nie formulár na vyplnenie",
+  "Eleven ratings from 1 to 5 and three open answers. The ratings are stored as real columns so per-question averages and the CSV export stay fast, and the exact submitted payload is kept as JSON beside them for audit.": "Jedenásť hodnotení od 1 do 5 a tri otvorené odpovede. Hodnotenia sú uložené ako skutočné stĺpce, aby priemery za jednotlivé otázky a export do CSV zostali rýchle, a presne odoslané údaje sa vedľa nich uchovávajú ako JSON na účely auditu.",
+  "Every record here was submitted by an attendee through their own one-time public link. That is why questionnaires cannot be created by hand: this app is for reading the results.": "Každý záznam tu odoslal účastník cez svoj vlastný jednorazový verejný odkaz. Preto sa dotazníky nedajú vytvárať ručne: táto aplikácia slúži na čítanie výsledkov.",
+  "Filled on": "Vyplnené dňa",
+  "How they get here": "Ako sa sem dostanú",
+  "Open a training date and use Send catalog sheet and questionnaire. Each attendee is mailed a personal link on which they confirm their own details, complete the catalog sheet and answer the questionnaire in a single pass. The link stops working once it has been used.": "Otvorte termín školenia a použite Odoslať katalógový list a dotazník. Každému účastníkovi príde e-mailom osobný odkaz, na ktorom naraz potvrdí svoje údaje, vyplní katalógový list a odpovie na dotazník. Po použití odkaz prestane fungovať.",
+  "Questionnaires": "Dotazníky",
+  "The moment the attendee pressed submit. It is read-only everywhere, because it is evidence of when the feedback was given rather than something the office sets.": "Okamih, keď účastník stlačil odoslať. Všade je len na čítanie, pretože je dokladom o tom, kedy bola spätná väzba poskytnutá, nie údajom, ktorý nastavuje kancelária.",
+  "What is recorded": "Čo sa zaznamenáva"
+ },
+ "Models\\Questionnaire": {
+  "Attendee": "Uchádzač",
+  "Filled on": "Vyplnené dňa",
+  "I would recommend this course to others": "Kurz by som odporučil ďalším",
+  "Information about the course was available and understandable": "Informácie o kurze boli dostupné a zrozumiteľné",
+  "Overall satisfaction with the course": "Celková spokojnosť s kurzom",
+  "Questionnaires": "Dotazníky",
+  "Raw answers (JSON)": "Surové odpovede (JSON)",
+  "Recommendations for future courses": "Odporúčania pre ďalšie kurzy",
+  "Technical support (online platform) was satisfactory": "Technická podpora (online platforma) bola vyhovujúca",
+  "The acquired knowledge is useful to me": "Získané vedomosti sú pre mňa užitočné",
+  "The course content was understandable and well-structured": "Obsah kurzu bol zrozumiteľný a dobre štruktúrovaný",
+  "The course met my expectations": "Kurz splnil moje očakávania",
+  "The lecturer communicated effectively and answered questions": "Lektor komunikoval zrozumiteľne a odpovedal na otázky",
+  "The lecturer created a stimulating and supportive environment": "Lektor vytvoril podnetné a ústretové prostredie",
+  "The lecturer was an expert on the topic": "Lektor bol odborníkom na danú tému",
+  "The organization of the course was effective": "Organizácia kurzu bola efektívna",
+  "What did you like most about the course?": "Čo sa vám na kurze páčilo najviac?",
+  "What would you suggest improving?": "Čo by ste navrhovali zlepšiť?"
+ },
+ "manifest": {
+  "Questionnaires": "Dotazníky",
+  "Satisfaction questionnaires filled in by training attendees.": "Dotazníky spokojnosti vyplnené uchádzačmi o školenie."
+ }
+}

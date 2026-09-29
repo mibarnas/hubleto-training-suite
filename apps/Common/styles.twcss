@@ -1,0 +1,21 @@
+/*
+ * Styles of the Training Suite apps. Import this file from the host project's
+ * Tailwind entry point (src/Main.twcss), after its own imports:
+ *
+ *   @import "../vendor/algocorp/hubleto-training-suite/apps/Common/styles.twcss";
+ */
+
+/* the apps' components and views, so Tailwind emits the classes they use */
+@source "../";
+
+/*
+ * Onboarding guide (Common/Components/OnboardingGuide.tsx).
+ *
+ * `.modal.centered.small` fixes the card at two thirds of the viewport height,
+ * which leaves a large empty area under a short guide. This modifier sizes the
+ * card to its content instead and lets the body scroll once it gets tall. Only
+ * from `md` up: below that `.modal` is deliberately full screen.
+ */
+@layer hubleto-main {
+  .modal.centered.small.fit-content { @apply md:h-auto md:max-h-[85vh]; }
+}

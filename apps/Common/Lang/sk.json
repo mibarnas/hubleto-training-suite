@@ -1,0 +1,11 @@
+{
+ "Components\\OnboardingGuide": {
+  "A quick tour of what this app does. You can open it again at any time with the Quick guide button.": "Stručná prehliadka toho, čo táto aplikácia robí. Kedykoľvek ju znova otvoríte tlačidlom Rýchly sprievodca.",
+  "Got it": "Rozumiem",
+  "Quick guide": "Rýchly sprievodca",
+  "Show the quick guide for this app": "Zobraziť rýchleho sprievodcu touto aplikáciou"
+ },
+ "Controllers\\OnboardingSeen": {
+  "Unknown onboarding guide.": "Neznámy sprievodca."
+ }
+}

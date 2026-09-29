@@ -1,0 +1,93 @@
+{
+ "Components\\FormWorker": {
+  "Address": "Adresa",
+  "Certificates": "Osvedčenia",
+  "Employment": "Zamestnanie",
+  "New worker": "Nový pracovník",
+  "Next retraining": "Ďalšie preškolenie",
+  "Orders": "Objednávky",
+  "Other": "Iné",
+  "Personal details": "Osobné údaje",
+  "Retrain by": "Preškoliť do",
+  "Retraining overdue since": "Preškolenie je po termíne od",
+  "Schedules": "Termíny",
+  "This worker has no certificate with an expiry date yet.": "Tento pracovník zatiaľ nemá osvedčenie s dátumom platnosti.",
+  "Training": "Školenie",
+  "Trainings": "Školenia",
+  "Worker": "Pracovník"
+ },
+ "Controllers\\Settings": {
+  "Settings": "Nastavenia",
+  "This app has no settings of its own yet.": "Táto aplikácia zatiaľ nemá vlastné nastavenia.",
+  "Workers": "Pracovníci"
+ },
+ "Controllers\\Workers": {
+  "A nightly job e-mails a retraining reminder six months before a certificate expires, and again one month before if the worker has not signed up in the meantime. Workers who belong to a company are not mailed individually; their employer gets one digest at the start of the year. Every send is recorded, so re-running the job never mails twice.": "Nočná úloha posiela e-mailom pripomienku preškolenia šesť mesiacov pred skončením platnosti certifikátu a znova mesiac pred ním, ak sa uchádzač medzitým neprihlásil. Uchádzačom patriacim k firme sa neposiela jednotlivo; ich zamestnávateľ dostane jeden súhrn na začiatku roka. Každé odoslanie sa zaznamenáva, takže opakované spustenie úlohy nikdy neodošle e-mail dvakrát.",
+  "A worker is the person who attends trainings: their personal details, employer and address. Attendees, orders and certificates all point back to a worker, so somebody who takes three courses still has a single record here. E-mail addresses are unique, and they are what the bulk importer matches on.": "Uchádzač je osoba, ktorá absolvuje školenia: jej osobné údaje, zamestnávateľ a adresa. Účastníci, objednávky aj certifikáty odkazujú na uchádzača, takže ten, kto absolvuje tri kurzy, má tu stále jediný záznam. E-mailové adresy sú jedinečné a práve podľa nich páruje hromadný import.",
+  "Add a single person with the Add Worker button. For company orders you usually do not add anyone by hand: attaching the filled-in .xlsx to a training order creates every worker that cannot be matched to an existing e-mail address.": "Jednotlivca pridáte tlačidlom Pridať uchádzača. Pri firemných objednávkach zvyčajne nepridávate nikoho ručne: priložením vyplneného .xlsx k objednávke školenia sa vytvorí každý uchádzač, ktorého sa nepodarí spárovať s existujúcou e-mailovou adresou.",
+  "One record per person": "Jeden záznam na jednu osobu",
+  "Opening a worker shows tabs for their trainings, schedules, certificates and orders, so you can answer what this person has done with us without leaving the page.": "Po otvorení uchádzača uvidíte záložky s jeho školeniami, termínmi, certifikátmi a objednávkami, takže na otázku, čo s nami táto osoba absolvovala, odpoviete bez opustenia stránky.",
+  "Reminders go out on their own": "Pripomienky odchádzajú samé",
+  "Retraining is calculated, not stored": "Termín preškolenia sa počíta, neukladá",
+  "The Next retraining date and Training to retake columns are read from the worker's certificates every time the list is shown: the certificate that expires soonest, or, once they have all lapsed, the one that expired most recently. There is nothing to keep up to date by hand.": "Stĺpce Termín najbližšieho preškolenia a Školenie na zopakovanie sa čítajú z certifikátov uchádzača pri každom zobrazení zoznamu: berie sa certifikát s najbližšou platnosťou, a ak už všetky uplynuli, ten, ktorému platnosť skončila naposledy. Nie je čo udržiavať ručne.",
+  "The whole history on one card": "Celá história na jednej karte",
+  "Two ways a worker gets here": "Dve cesty, ako sa uchádzač dostane sem",
+  "Workers": "Pracovníci"
+ },
+ "ExpiryNotifier": {
+  "Dear": "Dobrý deň",
+  "Retraining reminder could not be delivered": "Upozornenie na preškolenie sa nepodarilo doručiť",
+  "The following workers need retraining in": "Preškolenie potrebujú títo pracovníci v roku",
+  "Workers with training validity ending this year": "Pracovníci, ktorým sa tento rok končí platnosť školenia",
+  "Your training certificate is expiring soon": "Platnosť vášho osvedčenia sa čoskoro končí",
+  "your certificate is valid until": "vaše osvedčenie je platné do"
+ },
+ "Mailer": {
+  "No mail account is configured. Create one under Mail > Accounts before sending emails.": "Nie je nastavený žiadny e-mailový účet. Pred odosielaním e-mailov ho vytvorte v sekcii Pošta > Účty."
+ },
+ "Models\\ExpiryNotification": {
+  "1 month before expiry (individual)": "1 mesiac pred vypršaním (jednotlivec)",
+  "6 months before expiry (individual)": "6 mesiacov pred vypršaním (jednotlivec)",
+  "Certificate": "Osvedčenie",
+  "Company": "Firma",
+  "Delivered": "Doručené",
+  "Error": "Chyba",
+  "Kind": "Druh",
+  "Sent on": "Odoslané dňa",
+  "Sent to": "Odoslané na",
+  "Worker": "Pracovník",
+  "Yearly digest (company)": "Ročný súhrn (firma)"
+ },
+ "Models\\Worker": {
+  "Add Worker": "Pridať pracovníka",
+  "Birth number": "Rodné číslo",
+  "City": "Mesto",
+  "Country": "Štát",
+  "Email": "E-mail",
+  "Employer company": "Zamestnávateľ",
+  "Female": "Žena",
+  "First name": "Meno",
+  "Gender": "Pohlavie",
+  "Last name": "Priezvisko",
+  "Male": "Muž",
+  "Manager": "Manažér",
+  "Next retraining date": "Dátum ďalšieho preškolenia",
+  "Note": "Poznámka",
+  "Owner": "Vlastník",
+  "Phone": "Telefón",
+  "Street": "Ulica",
+  "Title after name": "Titul za menom",
+  "Title before name": "Titul pred menom",
+  "Training to retake": "Školenie na zopakovanie",
+  "Unspecified": "Neuvedené",
+  "Workplace ZIP": "PSČ pracoviska",
+  "Workplace city": "Mesto pracoviska",
+  "Workplace name": "Pracovisko",
+  "Workplace street": "Ulica pracoviska",
+  "ZIP": "PSČ"
+ },
+ "manifest": {
+  "Archive of workers registered for AlgoCorp trainings.": "Archív pracovníkov prihlásených na školenia AlgoCorp.",
+  "Workers": "Pracovníci"
+ }
+}

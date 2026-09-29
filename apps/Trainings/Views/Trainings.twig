@@ -1,0 +1,20 @@
+<div class="flex gap-2 items-center justify-between">
+  <h1 class="app-main-title">{{ translate('Trainings') }}</h1>
+
+  <hblreact-onboarding-guide
+    string:guide='{{ viewParams.onboarding.guide }}'
+    string:endpoint='trainings/api/onboarding-seen'
+    string:title="{{ translate('Trainings') }}"
+    json:seen='{{ viewParams.onboarding.seen|json_encode }}'
+    json:steps='{{ viewParams.onboarding.steps|json_encode }}'
+  ></hblreact-onboarding-guide>
+</div>
+
+<hblreact-trainings-table-trainings
+  string:tag="trainings-table-trainings"
+  int:record-id="{{ viewParams.recordId }}"
+  string:fulltext-search='{{ viewParams.q }}'
+  json:column-search='{{ viewParams.search|json_encode }}'
+  json:filters='{{ viewParams.filters|json_encode }}'
+  string:form-active-tab-uid='{{ viewParams.tab }}'
+></hblreact-trainings-table-trainings>

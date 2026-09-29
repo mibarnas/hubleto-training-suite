@@ -1,0 +1,19 @@
+{
+    "name": "mibarnas/hubleto-training-suite",
+    "description": "Training management apps for Hubleto ERP: workers, trainings, training orders and questionnaires.",
+    "type": "library",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "require": {
+        "php": ">=8.2",
+        "ext-zip": "*",
+        "hubleto/erp": "^1.1",
+        "hubleto/framework": "^1.1",
+        "phpoffice/phpspreadsheet": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hubleto\\App\\External\\TrainingSuite\\": "apps/"
+        }
+    }
+}
